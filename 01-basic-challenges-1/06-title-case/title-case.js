@@ -1,5 +1,5 @@
 function titleCase(str) {
-  newStr = str.toLowerCase().split(' ');
+  const newStr = str.toLowerCase().split(' ');
 
   return newStr
     .map((el) => {
