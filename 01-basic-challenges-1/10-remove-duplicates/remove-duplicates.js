@@ -1,10 +1,5 @@
 function removeDuplicates(arr) {
-  const uniqueEl = new Set();
-
-  arr.forEach((el) => {
-    uniqueEl.add(el);
-  });
-  return Array.from(uniqueEl);
+  return Array.from(new Set(arr));
 }
 
 module.exports = removeDuplicates;
