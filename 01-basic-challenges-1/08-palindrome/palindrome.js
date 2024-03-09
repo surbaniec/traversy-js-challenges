@@ -6,7 +6,7 @@ function isPalindrome(str) {
     reversed += formatedStr[i];
   }
 
-  return reversed === formatedStr ? true : false;
+  return reversed === formatedStr;
 }
 
 module.exports = isPalindrome;
